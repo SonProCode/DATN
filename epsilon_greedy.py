@@ -106,7 +106,7 @@ if __name__ == '__main__':
     q_table = init_q_table()
     step_count = 0
     R = 0.0
-    initial_actions = list(range(NUM_ACTIONS))  # Đảm bảo mỗi thuật toán được thử một lần
+    initial_actions = list(range(NUM_ACTIONS))
 
     # Warm-up delay
     time.sleep(5)
